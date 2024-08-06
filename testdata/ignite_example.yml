@@ -4,10 +4,10 @@ repo:
     org: sa-templates
     conn: ssh
   root:
-    clone:
-      repo: https://github.com/sohaib94/cv
-      include:
-        - src/pages
+    # clone:
+    #   repo: https://github.com/sohaib94/cv
+    #   include:
+    #     - src/pages
     files:
       - README.md
       - LICENSE.md
