@@ -15,13 +15,7 @@ type Meta struct {
 	Name string `yaml:"name"`
 }
 
-// type Create struct {
-// 	Files []string `yaml:"files"`
-// 	Directories map[string]Directory `yaml:"directories"`
-// }
-
 type Directory struct {
-	// Create Create `yaml:"create"`
 	Files []string `yaml:"files"`
 	Directories map[string]Directory `yaml:"directories"`
 }
